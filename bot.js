@@ -43,7 +43,7 @@ client.channels.find('id', '423934297376817172').setName("༺Welcome T");
 client.channels.find('id', '423934297376817172').setName("༺Welcome To");
 client.channels.find('id', '423934297376817172').setName("༺Welcome To F");
 client.channels.find('id', '423934297376817172').setName("༺Welcome To FI");
-client.channels.find('id', '423934297376817172').setName("༺WELCOME To FIN");
+client.channels.find('id', '423934297376817172').setName("༺Welcome To FIN");
 client.channels.find('id', '423934297376817172').setName("༺Welcome To FINE");
 client.channels.find('id', '423934297376817172').setName("༺Welcome To FINEX");
 client.channels.find('id', '423934297376817172').setName("༺Welcome To FINEX༺");
