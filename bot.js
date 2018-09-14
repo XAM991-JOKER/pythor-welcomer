@@ -46,6 +46,8 @@ client.channels.find('id', '423934297376817172').setName("Welcome To Fin");
 client.channels.find('id', '423934297376817172').setName("Welcome To Fine");
 client.channels.find('id', '423934297376817172').setName("Welcome To Finex");
 client.channels.find('id', '423934297376817172').setName("Welcome To Finex 🌹");
+client.channels.find('id', '423934297376817172').setName("Welcome To Finex 🌹");
+client.channels.find('id', '423934297376817172').setName("Welcome To Finex 🌹");  
   }, 3000);
 });
 
