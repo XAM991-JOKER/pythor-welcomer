@@ -31,23 +31,25 @@ client.on('ready', () => {
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '423934297376817172').setName("W");
-client.channels.find('id', '423934297376817172').setName("We");
-client.channels.find('id', '423934297376817172').setName("Wel");
-client.channels.find('id', '423934297376817172').setName("Welc");
-client.channels.find('id', '423934297376817172').setName("Welco");
-client.channels.find('id', '423934297376817172').setName("Welcom");
-client.channels.find('id', '423934297376817172').setName("Welcome");
-client.channels.find('id', '423934297376817172').setName("Welcome T");
-client.channels.find('id', '423934297376817172').setName("Welcome To");
-client.channels.find('id', '423934297376817172').setName("Welcome To F");
-client.channels.find('id', '423934297376817172').setName("Welcome To Fi");
-client.channels.find('id', '423934297376817172').setName("Welcome To Fin");
-client.channels.find('id', '423934297376817172').setName("Welcome To Fine");
-client.channels.find('id', '423934297376817172').setName("Welcome To Finex");
-client.channels.find('id', '423934297376817172').setName("Welcome To Finex 🌹");
-client.channels.find('id', '423934297376817172').setName("Welcome To Finex 🌹");
-client.channels.find('id', '423934297376817172').setName("Welcome To Finex 🌹");  
+client.channels.find('id', '423934297376817172').setName("༺");  
+client.channels.find('id', '423934297376817172').setName("༺W");
+client.channels.find('id', '423934297376817172').setName("༺WE");
+client.channels.find('id', '423934297376817172').setName("༺WEL");
+client.channels.find('id', '423934297376817172').setName("༺WELC");
+client.channels.find('id', '423934297376817172').setName("༺WELCO");
+client.channels.find('id', '423934297376817172').setName("༺WELCOM");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME");  
+client.channels.find('id', '423934297376817172').setName("༺WELCOME T");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO F");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO FI");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO FIN");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO FINE");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO FINEX");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO FINEX༺");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO FINEX༺🌹");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO FINEX༺🌹");
+client.channels.find('id', '423934297376817172').setName("༺WELCOME TO FINEX༺🌹");  
   }, 3000);
 });
 
