@@ -127,4 +127,36 @@ client.on("ready", () => {
 });
 
 
+
+
+
+var ss = 0;
+
+client.on('voiceStateUpdate', (o,n) => {
+    if (o.voiceChannel && !n.voiceChannel) {
+        ss-=1
+        n.guild.channels.get("423857340173910020").edit({
+            name : "FINEX VOICE : " + ss+ ""
+        })
+    };
+    if (n.voiceChannel && !o.voiceChannel) {
+        ss+=1
+        n.guild.channels.get("423857340173910020").edit({
+            name : "FINEX VOICE : " + ss+ ""
+        })
+    }
+})
+client.on("ready", () => {
+    client.guilds.get("423857340173910017").members.forEach(m => {
+        if (m.voiceChannel) {
+            ss+=1
+        };
+        client.channels.get("423857340173910020").edit({
+            name : "FINEX VOICE : " + ss+ ""
+        })
+    });
+});
+ 
+
+
 client.login(process.env.BOT_TOKEN);
